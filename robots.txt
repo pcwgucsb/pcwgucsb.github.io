@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://polcommucsb.org/sitemap.xml
