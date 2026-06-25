@@ -21,17 +21,6 @@ ucsbpolcomm/
 └── README.md
 ```
 
-## Hosting on GitHub Pages
-
-1. Create a new GitHub repository (e.g. `ucsbpolcomm.github.io` or any repo name).
-2. Push all files to the `main` branch.
-3. Go to **Settings → Pages**, set source to `main` branch, root (`/`).
-4. Your site will be live at `https://<org>.github.io/<repo>/`.
-
-To use a custom domain (e.g. `www.ucsbpolcomm.org`):
-- Add a `CNAME` file to the repo root containing just your domain name.
-- Point your DNS to GitHub's servers per [GitHub's documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
-
 ## How to Edit Content
 
 All content is plain HTML — no build tools or frameworks required.
@@ -55,9 +44,3 @@ Then in `people/index.html`, replace the placeholder `<div>` with:
 ```
 
 Recommended image size: **400 × 575 px** (3:4 ratio), JPEG, under 200 KB.
-
-## UCSB Seal
-
-Download the official UCSB seal from UCSB Brand & Visual Identity and save it as `assets/seal.png`.
-
-A transparent-background PNG works best (the nav inverts it to white automatically).
